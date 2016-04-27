@@ -1,0 +1,6 @@
+framework module UIApplication_Additions {
+  umbrella header "UIApplication+Additions-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "UIApplication+Additions",
+  "version": "0.0.2",
+  "summary": "Categories of UIApplication.",
+  "description": "Categories of UIApplication, Now include:\n1. UIApplication(Preference)",
+  "homepage": "https://github.com/liujianping/UIApplication-Additions.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liujianping": "liujianping.itech@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/liujianping/UIApplication-Additions.git",
+    "tag": "0.0.2"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/*.{h,m}"
+  ],
+  "requires_arc": true
+}

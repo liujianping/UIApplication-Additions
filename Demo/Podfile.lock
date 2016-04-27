@@ -1,0 +1,16 @@
+PODS:
+  - UIApplication+Additions (0.0.2)
+
+DEPENDENCIES:
+  - UIApplication+Additions (from `../`)
+
+EXTERNAL SOURCES:
+  UIApplication+Additions:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UIApplication+Additions: 4646e55222c6887a276d95666f1fb1345137fbda
+
+PODFILE CHECKSUM: 0a1cee6bb4e48e32006aae37f8bdd5bb83af761e
+
+COCOAPODS: 1.0.0.beta.8
