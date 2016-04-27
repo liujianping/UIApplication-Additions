@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "UIApplicaiton+Preference.h"
+#import "UIApplication+Preference.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [application setValue:@"1.0.1" forKey:@"version"];
+    NSLog(@"version => %@", [application valueForKey:@"version"]);
+    NSLog(@"CFBundleVersion => %@", [application valueForKey:@"CFBundleVersion"]);
+    
     return YES;
 }
 

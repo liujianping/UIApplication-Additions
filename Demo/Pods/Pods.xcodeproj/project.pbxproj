@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2328BB7CBFE689B57F4EFFC8C9632D8E /* UIApplication+Additions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC5E4CB8B42846C2563E64C6091F236B /* UIApplication+Additions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4619996110E976D910ABB323CE002E48 /* UIApplication+Additions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC89DE37FC7379BA37580FADA0562516 /* UIApplication+Additions-dummy.m */; };
 		46E1AE99D55E6036C34DFE7DA9F3B0BD /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BC86D40B890A7B0844F888209CA06F /* Pods-Demo-dummy.m */; };
-		5A6153B630BA6530FAA1383552458651 /* UIApplication+Additions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EF4CFEC293C2647631EA53D69FBD04A /* UIApplication+Additions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A3E4C6D18B30C9C8F53FB7E94ACCEF1 /* UIApplication+Preference.h in Headers */ = {isa = PBXBuildFile; fileRef = C0622A9C7CDE1467BB2212F557D668E3 /* UIApplication+Preference.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E5B9407DF80507008F6599FBDF26A61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
 		819CEEBADBA94525F2E815B1B02D16E3 /* Pods-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EA1E60232BFA05817BC26ACB8E68BA /* Pods-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB9718632C698540D390DA12F717CB60 /* UIApplication+Preference.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A834ADD4CB90B270A2927E3EC58FF58 /* UIApplication+Preference.m */; };
 		C1CDD2EAB835A5A7CC3A5393A5EFEFA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
-		D4CF8D101CD09A9C0024C57B /* UIApplication+Preference.h in Headers */ = {isa = PBXBuildFile; fileRef = D4CF8D0E1CD09A9C0024C57B /* UIApplication+Preference.h */; };
-		D4CF8D111CD09A9C0024C57B /* UIApplication+Preference.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CF8D0F1CD09A9C0024C57B /* UIApplication+Preference.m */; };
-		DB367AADAC6DA4198F15AB9EBF068321 /* UIApplication+Additions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B5D83AF6EAB15BF9F71079CA634833 /* UIApplication+Additions-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,26 +30,26 @@
 /* Begin PBXFileReference section */
 		0097628148E5FF005207F26748B8E0A8 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03EA1E60232BFA05817BC26ACB8E68BA /* Pods-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-umbrella.h"; sourceTree = "<group>"; };
-		24A05ABC8F446D09FEC4F23961E93A67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B7E048966DF3F953CDC6FBB279A464A /* UIApplication+Additions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Additions-prefix.pch"; sourceTree = "<group>"; };
 		322419E99883B306EE7EC77959FCC8DF /* Pods-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Demo.modulemap"; sourceTree = "<group>"; };
-		34B5D83AF6EAB15BF9F71079CA634833 /* UIApplication+Additions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Additions-dummy.m"; sourceTree = "<group>"; };
 		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3CD5A30239C90F1B549B4AB9299ECF16 /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
 		3D653C9DA16200D75AD14323AA830C6B /* Pods-Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-resources.sh"; sourceTree = "<group>"; };
-		4EF4CFEC293C2647631EA53D69FBD04A /* UIApplication+Additions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Additions-umbrella.h"; sourceTree = "<group>"; };
+		4A834ADD4CB90B270A2927E3EC58FF58 /* UIApplication+Preference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Preference.m"; sourceTree = "<group>"; };
 		71940C1CEB7995DC34CFE54CAF1AEF88 /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		81206ACB82446CBAF3A4C178ED228E5C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93D87606F872889014E1081660CB1667 /* UIApplication+Additions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Additions-prefix.pch"; sourceTree = "<group>"; };
-		A25077345CD00257B1746A38493028F4 /* UIApplication+Additions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "UIApplication+Additions.modulemap"; sourceTree = "<group>"; };
-		A3BB4D06CE36830E5A9FBA9ED6D342A2 /* UIApplication+Additions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIApplication+Additions.xcconfig"; sourceTree = "<group>"; };
+		BC89DE37FC7379BA37580FADA0562516 /* UIApplication+Additions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Additions-dummy.m"; sourceTree = "<group>"; };
 		BF283B4CCA09D174EC193FFAEB86290B /* UIApplication_Additions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIApplication_Additions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0622A9C7CDE1467BB2212F557D668E3 /* UIApplication+Preference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Preference.h"; sourceTree = "<group>"; };
 		C5BC86D40B890A7B0844F888209CA06F /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
+		C850E3EC5F495535175A4FC65ADFF9CF /* UIApplication+Additions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "UIApplication+Additions.modulemap"; sourceTree = "<group>"; };
 		CA19694C0AC41D598DE4ABFEB300E619 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC5E4CB8B42846C2563E64C6091F236B /* UIApplication+Additions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Additions-umbrella.h"; sourceTree = "<group>"; };
 		CC6A59B0ADA6CB2F51DAE6508E437829 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		D4CF8D0E1CD09A9C0024C57B /* UIApplication+Preference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Preference.h"; sourceTree = "<group>"; };
-		D4CF8D0F1CD09A9C0024C57B /* UIApplication+Preference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Preference.m"; sourceTree = "<group>"; };
 		DAB0701F8F25395B1ED46510ED4B9797 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		E68F8C86FB3267A3C87983DA9E269889 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDCA950ABCFE600F90CA8EDF9F1EEAC /* UIApplication+Additions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIApplication+Additions.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,23 +75,9 @@
 		0D92F7A8CE1A194F4E67F1B9A2699337 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				676B96CC33806BDCD171A312BEC918D2 /* UIApplication+Additions */,
+				2B40AF8B5FAEF6EDAB3BB470693A84AB /* UIApplication+Additions */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		10AD2D3E170F4E5DDD8CE64289A46E0A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				24A05ABC8F446D09FEC4F23961E93A67 /* Info.plist */,
-				A25077345CD00257B1746A38493028F4 /* UIApplication+Additions.modulemap */,
-				A3BB4D06CE36830E5A9FBA9ED6D342A2 /* UIApplication+Additions.xcconfig */,
-				34B5D83AF6EAB15BF9F71079CA634833 /* UIApplication+Additions-dummy.m */,
-				93D87606F872889014E1081660CB1667 /* UIApplication+Additions-prefix.pch */,
-				4EF4CFEC293C2647631EA53D69FBD04A /* UIApplication+Additions-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Demo/Pods/Target Support Files/UIApplication+Additions";
 			sourceTree = "<group>";
 		};
 		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
@@ -111,14 +97,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		676B96CC33806BDCD171A312BEC918D2 /* UIApplication+Additions */ = {
+		2B40AF8B5FAEF6EDAB3BB470693A84AB /* UIApplication+Additions */ = {
 			isa = PBXGroup;
 			children = (
-				CFA6BC41F05BB4809C0EE1492B455984 /* Classes */,
-				10AD2D3E170F4E5DDD8CE64289A46E0A /* Support Files */,
+				F8E2242FBEF3789E51161C1C05125328 /* Classes */,
+				48B66FC5F45E6677E5ACB032548086E5 /* Support Files */,
 			);
 			name = "UIApplication+Additions";
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		48B66FC5F45E6677E5ACB032548086E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81206ACB82446CBAF3A4C178ED228E5C /* Info.plist */,
+				C850E3EC5F495535175A4FC65ADFF9CF /* UIApplication+Additions.modulemap */,
+				EBDCA950ABCFE600F90CA8EDF9F1EEAC /* UIApplication+Additions.xcconfig */,
+				BC89DE37FC7379BA37580FADA0562516 /* UIApplication+Additions-dummy.m */,
+				2B7E048966DF3F953CDC6FBB279A464A /* UIApplication+Additions-prefix.pch */,
+				CC5E4CB8B42846C2563E64C6091F236B /* UIApplication+Additions-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Demo/Pods/Target Support Files/UIApplication+Additions";
 			sourceTree = "<group>";
 		};
 		6F2351C272926D3E0225FEFC2F9C5D1F /* Targets Support Files */ = {
@@ -148,15 +148,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CFA6BC41F05BB4809C0EE1492B455984 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D4CF8D0E1CD09A9C0024C57B /* UIApplication+Preference.h */,
-				D4CF8D0F1CD09A9C0024C57B /* UIApplication+Preference.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		ECC58720C5754A079F9A150E40E2FCDD /* Pods-Demo */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +166,15 @@
 			path = "Target Support Files/Pods-Demo";
 			sourceTree = "<group>";
 		};
+		F8E2242FBEF3789E51161C1C05125328 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C0622A9C7CDE1467BB2212F557D668E3 /* UIApplication+Preference.h */,
+				4A834ADD4CB90B270A2927E3EC58FF58 /* UIApplication+Preference.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -182,16 +182,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4CF8D101CD09A9C0024C57B /* UIApplication+Preference.h in Headers */,
 				819CEEBADBA94525F2E815B1B02D16E3 /* Pods-Demo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5CB8053F01791CA1DD2DB43DBD546EB /* Headers */ = {
+		E7F93A0B308042AD116620B1F6C1A203 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A6153B630BA6530FAA1383552458651 /* UIApplication+Additions-umbrella.h in Headers */,
+				2328BB7CBFE689B57F4EFFC8C9632D8E /* UIApplication+Additions-umbrella.h in Headers */,
+				5A3E4C6D18B30C9C8F53FB7E94ACCEF1 /* UIApplication+Preference.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,9 +220,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0ECE87889215EDF4333DA1FBCF76471 /* Build configuration list for PBXNativeTarget "UIApplication+Additions" */;
 			buildPhases = (
-				C33D2A10C3D877C73E32B19813618E07 /* Sources */,
+				A42D5A3698A68C6C77799F3051BE7CC7 /* Sources */,
 				53D71FB305BC60EDCDCA5852D50A8CDD /* Frameworks */,
-				C5CB8053F01791CA1DD2DB43DBD546EB /* Headers */,
+				E7F93A0B308042AD116620B1F6C1A203 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -261,11 +261,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C33D2A10C3D877C73E32B19813618E07 /* Sources */ = {
+		A42D5A3698A68C6C77799F3051BE7CC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB367AADAC6DA4198F15AB9EBF068321 /* UIApplication+Additions-dummy.m in Sources */,
+				4619996110E976D910ABB323CE002E48 /* UIApplication+Additions-dummy.m in Sources */,
+				AB9718632C698540D390DA12F717CB60 /* UIApplication+Preference.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +275,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				46E1AE99D55E6036C34DFE7DA9F3B0BD /* Pods-Demo-dummy.m in Sources */,
-				D4CF8D111CD09A9C0024C57B /* UIApplication+Preference.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +366,7 @@
 		};
 		AB685A4256C9AB7872ED1E7C631F6488 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3BB4D06CE36830E5A9FBA9ED6D342A2 /* UIApplication+Additions.xcconfig */;
+			baseConfigurationReference = EBDCA950ABCFE600F90CA8EDF9F1EEAC /* UIApplication+Additions.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -395,7 +395,7 @@
 		};
 		AF2DBF190D2DD17951C302B61749353A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3BB4D06CE36830E5A9FBA9ED6D342A2 /* UIApplication+Additions.xcconfig */;
+			baseConfigurationReference = EBDCA950ABCFE600F90CA8EDF9F1EEAC /* UIApplication+Additions.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
